@@ -1,18 +1,18 @@
-class DestinationController < ApplicationController
+class DestinationController < ApplicationController #this line is showing the Destination Controller inheriting the info from Application Controller
 
   get '/' do
+    # { :message => 'all items will show'}.to_json
     # get all
     Destination.all.to_json
   end
 
+  #below is all part of a RESTful controller
   get '/:id' do
     @id = params[:id]
-    Destination.find(@id).to_json
-    # get by id
+    Destination.find(@id).to_json #get by id
   end
 
-  post '/' do
-    # create
+  post '/' do  #create
     @country = params[:country]
     @city = params[:city]
     @location = params[:location]
@@ -24,8 +24,8 @@ class DestinationController < ApplicationController
     @model.save
 
     # place a breakpoint in ruby!
-    # binding.pry
-    # ^ the code stops here
+    # binding.pry ~ stops the code for testing
+    
     @model.to_json
   end
 
@@ -35,11 +35,14 @@ class DestinationController < ApplicationController
     @country = params[:country]
     @city = params[:city]
     @location= params[:location]
+
+
     @model = Destination.find(@id)
     @model.country = @country
     @model.city = @city
     @model.location = @location
     @model.save
+    
     @model.to_json
   end
 

@@ -1,0 +1,21 @@
+default:
+  adapter: mysql2
+  database: destination
+  username: lola   
+  password: preeti
+  host: localhost
+
+development:
+  adapter: mysql2
+  database: destination 
+  username: lola
+  password: preeti
+  host: localhost
+
+production:
+  adapter: mysql2
+  database: destination
+  username: lola
+  password: preeti
+  host: localhost
+
