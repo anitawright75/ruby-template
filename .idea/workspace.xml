@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbbda9e5-f56f-4002-978b-e22ade251bdf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/destination_controller.rb" afterPath="$PROJECT_DIR$/controllers/destination_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/destination.rb" afterPath="$PROJECT_DIR$/models/destination.rb" />
-    </list>
+    <list default="true" id="bbbda9e5-f56f-4002-978b-e22ade251bdf" name="Default" comment="" />
     <ignored path="ruby-template.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -58,21 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20161112192956_destinations.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20161112192956_destinations.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,10 +81,10 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/models/destination.rb" />
-        <option value="$PROJECT_DIR$/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/controllers/destination_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20161112192956_destinations.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -335,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478971161618</updated>
-      <workItem from="1478971164940" duration="4072000" />
+      <workItem from="1478971164940" duration="4245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4072000" />
+    <option name="totallyTimeSpent" value="4245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="155" y="93" width="1024" height="777" extended-state="0" />
@@ -431,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

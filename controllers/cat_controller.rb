@@ -17,6 +17,7 @@ class DestinationController < ApplicationController #this line is showing the De
     @city = params[:city]
     @location = params[:location]
 
+
     @model = Destination.new
     @model.country = @country
     @model.city = @city
